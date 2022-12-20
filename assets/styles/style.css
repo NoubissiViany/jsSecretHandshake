@@ -1,0 +1,59 @@
+.page-content {
+  margin-top: 5%;
+}
+
+.container {
+  max-width: 440px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 50px 20px;
+  background-color: gainsboro;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+i {
+  font-size: 50px;
+}
+
+.container1 {
+  display: flex;
+  flex-flow: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.inpt {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 18px 25px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.result {
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  margin-top: 15px;
+  padding: 50px 25px;
+  visibility: hidden;
+  font-size: 25px;
+  font-weight: bold;
+}
